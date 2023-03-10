@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Satyam's Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Gajraj One', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(my.jpg);
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        /* border-radius: 77px; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+
+    }
+
+    .mid {
+        /* border: 7px solid yellow; */
+        border-radius: 57px;
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+        padding: 7px 0px;
+
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        border-radius: 57px;
+        display: inline-block;
+        position: absolute;
+        right: 57px;
+        top: 7px;
+        text-align: center;
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 27px;
+
+    }
+
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        padding: 97px 57px;
+
+
+
+
+
+    }
+
+    .left img {
+        width: 775px;
+        height: 1397px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 47px;
+        color: red;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: orange;
+        text-decoration: underline;
+        cursor: pointer;
+
+
+
+    }
+
+
+
+    .right :hover {
+        color: orangered;
+        text-decoration: underline;
+        cursor: pointer;
+        /* background-color: beige;
+        border-color: aqua; */
+
+    }
+
+
+
+
+
+    .left :hover {
+        color: orangered;
+        text-decoration: underline;
+        cursor: pointer;
+        background-color: beige;
+        border-color: aqua;
+
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        /* margin: 277px 277px; */
+        padding: 77px 27px;
+        /* width: 33%; */
+        border-radius: 57px;
+        display: block;
+        width: 39%;
+        margin: 377px auto;
+    }
+
+    .form-grp input {
+        font-family: 'Gajraj One', cursive;
+        text-align: center;
+        font-size: 27px;
+        margin: 7px auto;
+        display: block;
+        width: 507px;
+        padding: 2px;
+        border-radius: 7px;
+        border: 7px solid black;
+    }
+
+    .container h1 {
+        text-align: center;
+        /* margin: auto;
+        display: block;
+        width: 57px; */
+        color: red;
+        font-size: 57px;
+
+
+    }
+
+    .container button {
+        margin: 7px auto;
+        display: block;
+        width: 507px;
+
+
+
+
+    }
+
+    .btttn {
+        margin: auto;
+        display: block;
+        width: 7px;
+        cursor: pointer;
+        border: 7px solid greenyellow;
+        border-radius: 57px;
+
+        font-size: 27px;
+        color: red;
+        font-family: 'Gajraj One', cursive;
+
+    }
+
+    .btn {
+        /* margin: 0px 9px; */
+        /* background-color: antiquewhite; */
+        color: red;
+        /* padding: 77px 97px;
+        border: 7px solid greenyellow; */
+        border-radius: 57px;
+
+        font-size: 27px;
+        cursor: pointer;
+        font-family: 'Gajraj One', cursive;
+
+    }
+
+    .btn :hover {
+        color: orange;
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+    .container :hover {
+        color: orange;
+        text-decoration: underline;
+        cursor: pointer;
+
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Gajraj+One&family=Gloock&display=swap"
+            rel="stylesheet">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://shayarisove.com/wp-content/uploads/2022/05/build-body.jpg" alt="">
+            <div>Sarthak's Gym</div>
+
+        </div>
+
+        <!-- Mid box for nabar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="https://goldsgym.in/memberships.html">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+
+
+        </div>
+
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+
+        </div>
+        <div class="container">
+            <h1>Join the best gym of Lucknow</h1>
+            <form action="noaction.php">
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="Enter Your Locality">
+                </div>
+
+                <button class="btttn">Submit</button>
+
+            </form>
+
+        </div>
+
+    </header>
+
+
+
+
+</body>
+
+</html>
